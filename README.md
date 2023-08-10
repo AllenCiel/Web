@@ -104,17 +104,37 @@
 1. 下载MySQL，会在安装的时候设置root的密码。
 <img width="681" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/6909a704-7c6e-47c4-841d-4652852a9c19">
 
-2. pycharm专业版，右栏“Database”，选择“+”号，选择“Data Source”，选择“MySQL”。<img width="611" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/cedc93e2-de81-4d1d-b11f-efb68d25c2b2">
+2. pycharm专业版，右栏“Database”，选择“+”号，选择“Data Source”，选择“MySQL”。
+  
+   <img width="611" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/cedc93e2-de81-4d1d-b11f-efb68d25c2b2">
 
 3. "User":root,"Password":自己设置的密码，点击“Test Connection”测试链接，点击“OK”
+   
 <img width="798" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/607af112-fbee-4d0e-a615-e9a413c8a64e">
 
 4.右键，选择“SQL Scripts”，选择“Run SQL Script”，运行zip文件下的cov.sql文件，该文件创建cov数据库，包含四张表（不是最终确定的数据库，
+
  <img width="379" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/923afdce-8a22-4cf3-87e6-0da8fc450295">
  <img width="617" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/826c3708-52d2-4bb1-8e0f-983938eb9708">
 <img width="1017" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/5809a5c8-d226-4b5e-b8d6-1d1f525ed8a6">
 
-5. 点击“No”
+5. 点击“No schemas selected”后面的省略号，选中“cov”
+
+   <img width="429" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/90164745-a1b8-4987-8de6-4d5238e8bcd9">
+   <img width="354" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/335fb1c6-3ab3-47ae-9b6e-6e5dca6db6d6">
+
+6. 添加数据，在zip文件的Jupyter notebook文件中有介绍。*details和history表为空时，步骤8会有报错
+7. 需要修改/test/utils.py文件中get_conn函数中的password。
+8. 运行app.py文件，浏览器查看127.0.0.1:5000，推荐使用谷歌浏览器。
+<img width="666" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/a9f4b169-fe96-458e-9532-5ea1542858b5">
+
+
+## 后续安排
+
+1. 数据库结构的设计
+2. 模块功能的确定
+3. ……
+
 
 
 
