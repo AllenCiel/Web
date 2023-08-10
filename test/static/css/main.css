@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	background: #333;
+}
+
+#title1{
+	position: absolute;
+	width: 50%;
+	height: 10%;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	bottom: 90%;
+	/* background-color: bisque; */
+	/*  */
+	color: #ffffff;
+	font-size: 30px;
+	/* 布局，水平居中和竖直居中 */
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+}
+#tim{
+	position: absolute;
+	/*width: 10%;*/
+	height: 10%;
+	top: 5%;
+	right: 2%;
+	color: white;
+	font-size: 20px;
+}
+
+
+#title2{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 10%;
+	left: 0;
+	color: #ffffff;
+	/* background-color: blue; */
+
+}
+
+#title3{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 40%;
+	left: 0;
+	color: white;
+	/* background-color: rosybrown; */
+}
+
+#title4{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 70%;
+	left: 0;
+	/* background-color: olive; */
+}
+
+#title5{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 70%;
+	left: 25%;
+
+	/* background-color: blueviolet; */
+}
+
+#title6{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 70%;
+	left: 50%;
+	/* background-color: gray; */
+}
+
+#title7{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 70%;
+	left: 75%;
+	
+	/* background-color: aqua; */
+}
+
+#title8{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 40%;
+	left: 75%;
+	
+	/* background-color: gold; */
+}
+
+#title9{
+	position: absolute;
+	width: 25%;
+	height: 30%;
+	top: 10%;
+	left: 75%;
+	
+	/* background-color: tomato; */
+}
+
+#title10{
+	position: absolute;
+	width: 50%;
+	height: 60%;
+	top: 10%;
+	left: 25%;
+	
+	/* background-color: black; */
+}
+
+	
+.num{
+	width: 30%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gold;
+	font-size: 20px;
+	
+}
+
+.txt{
+	width: 30%;
+	float: left;
+	font-family: '宋体';
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	/* color: gold;
+	font-size: 20px; */
+}
+
+.media-size {
+        width: 100%;
+        height: 100%;
+    }
