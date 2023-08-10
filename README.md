@@ -100,6 +100,7 @@
 2. 后续更新：接入监控？
 
 ## 本地部署
+requirement：python=3.7，其余参考微信群中infdiffusion项目的requirement.txt
 
 1. 下载MySQL，会在安装的时候设置root的密码。
 <img width="681" alt="image" src="https://github.com/AllenCiel/Web/assets/95277051/6909a704-7c6e-47c4-841d-4652852a9c19">
